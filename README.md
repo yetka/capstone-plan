@@ -62,3 +62,6 @@ This website is created to manage resort.
 * Currency converter API
 * Google Map API
 * OpenWeather API
+
+## Visual Representation of Layout
+![Visualization](./layout-visualisation.jpg)

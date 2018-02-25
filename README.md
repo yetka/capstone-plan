@@ -5,7 +5,6 @@
 ### Name of Project: Marine Resort
 
 ## Project’s Goals:
-
 This website is created to manage resort.
 * Admin's panel is available after authentication.
 * Admin can add new rooms to database, edit or delete it.
@@ -23,16 +22,19 @@ This website is created to manage resort.
 * User have 48 hours to contact with resort manager and confirm his/her reservation.
 * User gets confirmation letter via email.
 
-## List of absolute minimum features the project requires to meet this goals:
+## MVP
 
+### List of absolute minimum features the project requires to meet this goals:
 #### Admin panel:
 * Part to add, edit and delete rooms.
 * Part with request about user's reservation.
-
 #### User panel:
 * List of rooms.
 * Room details and possibility to initialy book it.
 * Booking form to collect information about the user.
+
+### Visual Representation of MVP Layout
+![MVP-GuestPanelVisualization](./MVP-GuestPanel.jpg)
 
 ### Tools, frameworks, libraries, APIs, modules and/or other resources use to create this MVP
 * HTML
@@ -42,12 +44,12 @@ This website is created to manage resort.
 * Redux
 * Firebase database (to store data)
 
-## List of additional features:
+## Full version of aplication
 
+### List of additional features:
 #### Admin panel:
 * Authentication for admin.
 * When request is accepted - send confirmation letter to user.
-
 #### User panel:
 * User can choose the language the page is displayed in (plus currency).
 * Welcome information.
@@ -63,5 +65,5 @@ This website is created to manage resort.
 * Google Map API
 * OpenWeather API
 
-## Visual Representation of Layout
+### Visual Representation of Full Version Layout
 ![Visualization](./layout-visualisation.jpg)

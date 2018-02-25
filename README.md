@@ -7,34 +7,40 @@
 ## Project’s Goals:
 This website is created to manage resort.
 * Admin's panel is available after authentication.
-* Admin can add new rooms to database, edit or delete it.
-* Admin can see a request about user's reservation.
-* Admin can confirm that certain room is booked in a specific time.
+* Admin can see chart with room availability during the year.
+* Admin can edit room information.
+* Admin can edit or delete reservation for each room.
+* Admin can see guests' reservation requests.
+* Admin can edit, submit or delete guests' reservation requests.
 * User can choose the language the page is displayed in (different language and different currency: USD for English version and RUB for Russian version)
 * User can see welcome information.
 * User can see map with travel information.
 * User can see current weather conditions.
 * User can see activities.
-* User can see rooms.
-* User can click on specific room to see more datail and to book it.
-* User can use a serching bar (filters: guests, date) to find a room he/she is interested in.
-* User can initialy book a room by filling out a form (contact information)
-* User have 48 hours to contact with resort manager and confirm his/her reservation.
+* User can use a serching bar (filters: beds number, date) to see which rooms are available.
+* If room is available guest is able to click `book` button.
+* After clicking on `book` guest sees reservation information and labels to fill in with his/her personal information.
+* After confirming the form above guest sees final information about reservation.
 * User gets confirmation letter via email.
 
 ## MVP
 
-### List of absolute minimum features the project requires to meet this goals:
+### List of absolute minimum features the project requires to meet its goals:
 #### Admin panel:
-* Part to add, edit and delete rooms.
-* Part with request about user's reservation.
+* Part to edit rooms.
+* Part to edit and delete reservations for each room.
+* Part with guests' reservation requests, where admin can edit, submit or delete requests.
 #### User panel:
+* Serching bar (filters: beds number, date) to see which rooms are available
 * List of rooms.
-* Room details and possibility to initialy book it.
-* Booking form to collect information about the user.
+* If certain room is available, `book` button is active.
+* After clicking on `book` guest sees booking form with reservation details and labels to fill in with contact information.
 
 ### Visual Representation of MVP Layout
+#### Guest Panel
 ![MVP-GuestPanelVisualization](./MVP-GuestPanel.jpg)
+#### Admin Panel
+![MVP-GuestPanelVisualization](./MVP-AdminPanel.jpg)
 
 ### Tools, frameworks, libraries, APIs, modules and/or other resources use to create this MVP
 * HTML
@@ -49,7 +55,8 @@ This website is created to manage resort.
 ### List of additional features:
 #### Admin panel:
 * Authentication for admin.
-* When request is accepted - send confirmation letter to user.
+* Admin can see chart with room availability during the year ( Gannt chart).
+* When guest's request is accepted - it sends confirmation letter to user.
 #### User panel:
 * User can choose the language the page is displayed in (plus currency).
 * Welcome information.
@@ -57,7 +64,7 @@ This website is created to manage resort.
 * Current weather conditions.
 * List of activities.
 * Activity details.
-* Serching bar (filters: guests, date) to find a room that user is interested in.
+* After confirming the reservation form guest sees final information about reservation.
 
 ### Additional tools, frameworks, libraries, APIs, or other resources that these additional features require:
 * Firebase authorization (admin authentication).

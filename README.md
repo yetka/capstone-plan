@@ -43,7 +43,9 @@ This website is created to manage resort.
 ![MVP-GuestPanelVisualization](./MVP-AdminPanel.jpg)
 
 ### Component Hierarchy
-![ComponentTree](./component-tree.jpg)
+![ComponentTree](./component-tree-part1.jpg)
+![ComponentTree](./component-tree-part2.jpg)
+![ComponentTree](./component-tree-part3.jpg)
 
 ### Tools, frameworks, libraries, APIs, modules and/or other resources use to create this MVP
 * HTML

@@ -55,6 +55,10 @@ This website is created to manage resort.
 * Redux
 * Firebase database (to store data)
 
+### Static Version Repo
+[Static Version](https://github.com/yetka/capstone-static-version)
+
+
 ## Full version of aplication
 
 ### List of additional features:

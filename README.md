@@ -43,9 +43,7 @@ This website is created to manage resort.
 ![MVP-GuestPanelVisualization](./MVP-AdminPanel.jpg)
 
 ### Component Hierarchy
-![ComponentTree](./component-tree-part1.jpg)
-![ComponentTree](./component-tree-part2.jpg)
-![ComponentTree](./component-tree-part3.jpg)
+![ComponentTree](./component-tree.jpg)
 
 ### Tools, frameworks, libraries, APIs, modules and/or other resources use to create this MVP
 * HTML
@@ -57,6 +55,15 @@ This website is created to manage resort.
 
 ### Static Version Repo
 [Static Version](https://github.com/yetka/capstone-static-version)
+
+### State
+* Application State Slices
+    - roomsList
+    - reservationRequestsList
+    - roomsPrices
+* Local States
+    - App: currentlyVisibleContetnt
+    -
 
 
 ## Full version of aplication
